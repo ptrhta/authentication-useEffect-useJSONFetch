@@ -40,7 +40,7 @@ export default function Details(props) {
       
         fetchDetails();
 
-    }, [props.info.id]);
+    }, [info.id]);
 
     return(
        <>
